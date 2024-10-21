@@ -1,0 +1,15 @@
+/*----  <  CONTACT PAGE TITLE  >  ----*/
+
+#contact-page-title {
+  text-align: center;
+  margin: 1em;
+}
+
+/*----  <  CONTACT PAGE FORM  >  ----*/
+
+#contact-page-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

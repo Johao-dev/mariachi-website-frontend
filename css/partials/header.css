@@ -1,0 +1,10 @@
+/*----  <  HEADER  >  ----*/
+
+#header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;
+    align-items: center;
+}
