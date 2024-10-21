@@ -1,0 +1,258 @@
+/*----  <  HEADER  >  ----*/
+
+#header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;
+    align-items: center;
+}
+
+
+/*----  <  NAVBAR  >  ----*/
+
+#navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;
+    align-items: center;
+}
+
+#navbar .navbar-img {
+    width: 150px;
+    height: 100%;
+}
+
+#navbar .navbar-img img {
+    object-fit: cover;
+}
+
+
+/*----  <  CAROUSEL  >  ----*/
+
+
+
+/*----  <  VIDEO-PRESENTATION  >  ----*/
+
+#video-presentation {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 0;
+}
+
+.video-presentation-title {
+    color: rgb(15, 180, 198);
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.video-presentation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.video-presentation-body {
+    font-size: 1.5em;
+}
+
+.video-presentation-video {
+    width: 50%;
+    height: 100%;
+}
+
+.video-presentation-video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.video-presentation-footer {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: #F7C548;
+    font-size: 22px;
+    transition: .5s ease;
+}
+
+.video-presentation-footer:hover {
+    background-color: #F2A63F;
+}
+
+
+/*----  <  IMG-PRESENTATION  >  ----*/
+
+#img-presentation {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.img-presentation-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-presentation-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    color: #fff;
+    padding: 20px;
+    z-index: 2;
+}
+
+#img-presentation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+
+/*----  <  COMMENTS-CAROUSEL  >  ----*/
+
+#container-comment-slider {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.card-wrapper {
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-list .card-item .card-link {
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.05);
+  transition: .2s ease;
+}
+.card-list .card-item .card-link:hover {
+  border-color: #F2A63F;
+}
+
+.card-list .card-link .card-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-list .card-link .badge {
+  color: #5372F0;
+  margin: 16px 0 18px;
+  padding: 8px 16px;
+  font-size: .95rem;
+  font-weight: 500;
+  background: #DDE4FF;
+  width: fit-content;
+  border-radius: 50px;
+}
+
+.card-list .card-link .badge.designer {
+  color: #B22485;
+  background: #F7DFF5;
+}
+
+.card-list .card-link .badge.marketer {
+  color: #B25A2B;
+  background: #FFE3D2;
+}
+
+.card-list .card-link .badge.gamer {
+  color: #205C20;
+  background: #D6F8D6;
+}
+
+.card-list .card-link .badge.editor {
+  color: #856404;
+  background: #fff3cd;
+}
+
+.card-list .card-link .card-title {
+  font-size: 1.19rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: .5;
+    background: #F2A63F;
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.card-wrapper .swiper-slide-button {
+    color: #000;
+    margin-top: -35px;
+}
+
+
+/*----  <  FOOTER  >  ----*/
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5em;
+    width: 250px;
+    height: 150px;
+}
+
+.footer-content-socialmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-message img {
+    width: 100%;
+    height: 50px;
+}
