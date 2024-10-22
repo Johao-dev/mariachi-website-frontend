@@ -1,0 +1,129 @@
+/*----  <  ICONS SECTION  >  ----*/
+
+#services-page-section-icons {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+#services-page-section-icons-container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    gap: 5em;
+}
+
+#services-page-section-icons-container img {
+    width: 150px;
+}
+
+/*----  <  CARDS SECTION  >  ----*/
+
+#services-page-section-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+#services-page-section-cards-economic,
+#services-page-section-cards-classic,
+#services-page-section-cards-premium {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+    width: 80%;
+    justify-content: center;
+}
+
+#services-page-section-cards-economic .card-economic,
+#services-page-section-cards-classic .card-classic,
+#services-page-section-cards-premium .card-premium {
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+#services-page-section-cards-economic .card-header {
+    border-radius: 20px;
+    background-color: #F7CF6C;
+}
+
+#services-page-section-cards-classic .card-header {
+    border-radius: 20px;
+    background-color: #FFB600;
+}
+
+#services-page-section-cards-premium .card-header {
+    border-radius: 20px;
+    background-color: #000;
+    color: #F7C548;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.card-footer button {
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #F7C548;
+}
+
+.card-footer button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+}
+
+/*Deberia de pintar los iconos de verde, pero, al se estos imagenes, creo que no lo aplica.*/
+.card-check-icon {
+    color: #81B337;
+    width: 15px;
+    height: 15px;
+}
+
+#services-page-section-cards-personalize {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+    width: 80%;
+    height: 60px;
+    justify-content: center;
+}
+
+#services-page-section-cards-personalize button {
+    width: 180px;
+    height: 50px;
+    border-radius: 12px;
+    font-weight: 600;
+    border: none;
+    background-color: #F7C548;
+}
+
+/*----  <  FAQS SECTION  >  ----*/
+
+#services-page-section-FAQ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+#services-page-section-FAQ #services-page-section-FAQ-title {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#services-page-section-FAQ #services-page-section-FAQ-faqs {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
