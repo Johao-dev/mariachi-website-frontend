@@ -22,27 +22,6 @@ function loadComponent(url, containerId) {
 }
 
 /*
-    ----  <  PANEL RIGHT  >  ----
-*/
-// panel right variables
-const PANEL_RIGHT = document.getElementById("panel-right-container");
-const PANEL_BUTTON = document.getElementById("navbar-button");
-const PANEL = '../js/components/navbar-menu.html';
-
-PANEL_BUTTON.addEventListener("click", function (e) {
-  fetch(PANEL)
-    .then(response => response.text())
-    .then(data => {
-      PANEL_RIGHT.innerHTML = data;
-      let offcanvasElement = document.getElementById("offcanvasRight");
-      let offcanvasInstance = new bootstrap.Offcanvas(offcanvasElement);
-      offcanvasInstance.show();
-    })
-    .catch(error => console.error('Error al cargar el panel', error))
-});
-
-
-/*
     ----  <  COMMENTS SLIDER  >  ----
 */
 function initializeSwiper() {
