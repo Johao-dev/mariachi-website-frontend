@@ -124,9 +124,6 @@
   box-shadow: 0 10px 10px rgb(0, 0, 0, 0.05);
   transition: .2s ease;
 }
-.card-list .card-item .card-link:hover {
-  border-color: #F2A63F;
-}
 
 .card-list .card-link .card-image {
   width: 100%;

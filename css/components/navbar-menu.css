@@ -1,0 +1,23 @@
+/*----  <  MENU PANEL ITEM  >  ----*/
+
+#offcanvasRight {
+    max-width: 300px;
+}
+
+#offcanvasRight .navbar-panel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    height: 45%;
+    list-style: none;
+}
+
+#offcanvasRight .navbar-panel-list .navbar-panel-item-text {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+#offcanvasRight .navbar-panel-list .navbar-panel-item-text:hover {
+    color: #f2a63f;
+}

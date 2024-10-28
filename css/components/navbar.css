@@ -17,3 +17,8 @@
 #navbar .navbar-img img {
     object-fit: cover;
 }
+
+#navbar #navbar-button {
+    background: none;
+    border: none;
+}
