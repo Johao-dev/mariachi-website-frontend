@@ -1,0 +1,44 @@
+<!--modal-->
+<div class="modal fade" id="custom-package" tabindex="-1" aria-labelledby="customPackageModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="customPackageModalLabel">Paquete personalizado</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p class="text-center">Tu eliges la cantidad de mariachis y tiempo que estaremos contigo.</p>
+
+            <form>
+                <div class="mb-3 row">
+                    <div class="col">
+                        <label for="mariachis" class="form-label">Cantidad de mariachis</label>
+                        <input type="number" class="form-control" id="mariachis" placeholder="Mariachis" min="0" max="15">
+                    </div>
+                    <div class="col">
+                        <label for="time" class="form-label">Tiempo</label>
+                        <input type="time" class="form-control" id="time" placeholder="hh:mm">
+                    </div>
+                </div>
+
+                <!-- Evento -->
+                <div class="mb-3">
+                    <label for="event" class="form-label">Evento</label>
+                    <input type="text" class="form-control" id="event" placeholder="Ej. aniversario">
+                </div>
+
+                <!-- Detalles -->
+                <div class="mb-3">
+                    <label for="details" class="form-label">Detalles</label>
+                    <textarea class="form-control" id="details" rows="3"
+                        placeholder="Ej. Lugar, hora, etc."></textarea>
+                </div>
+
+                <!-- Botón de Solicitud -->
+                <button type="submit" class="btn btn-warning w-100">Solicitar cotización</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
