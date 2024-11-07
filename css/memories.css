@@ -1,3 +1,15 @@
+@import url("/css/general.css");
+
+@import url("/css/components/footer.css");
+@import url("/css/components/header.css");
+@import url("/css/components/mainCarousel.css");
+@import url("/css/components/navbar-menu.css");
+@import url("/css/components/navbar.css");
+
+@import url("/css/modal/memory.css");
+
+@import url("/css/ext/bootstrap.min.css");
+
 /*----  <  TITLE SECTION  >  ----*/
 
 #memories-page-section-title {

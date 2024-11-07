@@ -1,3 +1,14 @@
+@import url("/css/general.css");
+
+@import url("/css/components/footer.css");
+@import url("/css/components/header.css");
+@import url("/css/components/mainCarousel.css");
+@import url("/css/components/navbar-menu.css");
+@import url("/css/components/navbar.css");
+
+@import url("/css/ext/bootstrap.min.css");
+@import url("/css/ext/swiper-bundle.min.css");
+
 /*----  <  VIDEO-PRESENTATION  >  ----*/
 
 #video-presentation {
@@ -24,6 +35,10 @@
     width: 50%;
     height: 100%;
     text-align: center;
+}
+
+#video-presentation-body-cont {
+    width: 450px;
 }
 
 .video-presentation-body {
@@ -61,7 +76,8 @@
 #img-presentation {
     position: relative;
     width: 100%;
-    height: 500px;
+    max-height: 500px;
+    overflow: hidden;
 }
 
 .img-presentation-img {
@@ -85,6 +101,13 @@
     color: #fff;
     padding: 20px;
     z-index: 2;
+}
+
+#img-presentation-body-cont {
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+    width: 70%;
 }
 
 #img-presentation::before {

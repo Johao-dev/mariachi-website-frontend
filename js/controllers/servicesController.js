@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const headerPromise = loadComponent('../js/components/header.html', 'header-container');
-    const footerPromise = loadComponent('../js/components/footer.html', 'footer-container');
-    const mainCarouselPromise = loadComponent('../js/components/mainCarouse.html', 'carousel-container-');
-    const navbarMenuPromise = loadComponent('../js/components/navbar-menu.html', 'panel-right-container');
-    const navbarPromise = loadComponent('../js/components/navbar.html', 'navbar-container');
-    const modalContainerPromise = loadComponent('modals/customPackage.html', 'modal-container');
+    const headerPromise = loadComponent('/js/components/header.html', 'header-container');
+    const footerPromise = loadComponent('/js/components/footer.html', 'footer-container');
+    const mainCarouselPromise = loadComponent('/js/components/mainCarouse.html', 'carousel-container-');
+    const navbarMenuPromise = loadComponent('/js/components/navbar-menu.html', 'panel-right-container');
+    const navbarPromise = loadComponent('/js/components/navbar.html', 'navbar-container');
+    const modalContainerPromise = loadComponent('/view/modals/customPackage.html', 'modal-container');
 });
   
 function loadComponent(url, containerId) {
